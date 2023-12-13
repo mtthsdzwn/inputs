@@ -215,7 +215,7 @@ viewof foundAthletes = Inputs.search(athletes, {label: "Athletes"})
 A Search input can work with either tabular data (an array of objects) or a single column (an array of strings). When searching tabular input, all properties on each object in *data* are searched by default, but you can limit the search to a specific set of properties using the *column* option. For example, to only search the “sport” and “nationality” column:
 
 ```js
-viewof foundAthletes = Inputs.search(athletes, {label: "Athletes", columns: ["sport", "nationality"]})
+viewof foundAthletes = Inputs.search(athletes, {label: "Athletes", column: ["sport", "nationality"]})
 ```
 
 For example, to search U.S. state names:
